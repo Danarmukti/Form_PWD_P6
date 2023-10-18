@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 6</title>
+    <style>
+    </style>
+</head>
+<body>
+    <table style="width: 650px;margin-left: 25%;">
+        <tr>
+            <td style="width: 0;">
+                <img src="https://sofianrx.files.wordpress.com/2012/12/logo-unindra2.jpg" alt="" style="width: 150px;margin-right: 0;">
+            </td>
+            <td>
+                <h1 style="text-align:center;">PERPUSTAKAAN</h1>
+                <h1 style="text-align:center;">Universitas Indraprasta</h1>
+                <h1 style="text-align:center;margin-top: -15px;">(PGRI)</h1>
+              
+            </td>
+        </tr>
+    </table>
+    <hr style="background-color: black; height: 2px; solid;margin-left: 25%;margin-right: 25%;">
+    <table border="0" style="width: 800px;margin-left: 25%;">
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <h2 style="text-align:center;">Formulir Registrasi Anggota</h2>
+            </td>
+        </tr>
+    </table>
+    <table border="0" style="width: 700px;margin-left: 25%;"> 
+        <thead>
+            <tr>
+                <th colspan="3" align="left"><strong>Isikan Data Diri Anda:</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td width="18%"><strong>Nama</strong></td>
+                <td width="1%"><strong>:</strong></td>
+                <td><input type="text" size="30"></td>
+            </tr>
+            <tr>
+                <td><strong>Jenis Kelamin</strong></td>
+                <td><strong>:</strong></td>
+                <td><input type="radio"><label for="laki-laki"><strong>Laki - laki</strong></label>
+                    <input type="radio"><label for="Perempuan"><strong>Perempuan</strong></label></td>
+            </tr>
+            <tr>
+                <td><strong>Tempat, Tgl<br>Lahir</strong></td>
+                <td><strong>:</strong></td>
+                <td><input type="text" size="30"></td>
+            </tr>
+            <tr>
+                <td><strong>NPM</strong></td>
+                <td><strong>:</strong></td>
+                <td><input type="telp" size="30"></td>
+            </tr>
+            <tr>
+                <td><strong>Fakultas</strong></td>
+                <td><strong>:</strong></td>
+                <td><input type="radio"><label for="FTMIPA"><strong>FTMIPA</strong></label>
+                    <input type="radio"><label for="FIPPS"><strong>FIPPS</strong></label>
+                    <input type="radio"><label for="FBS"><strong>FBS</strong></label>
+                    <input type="radio"><label for="PASCASARJANA"><strong>PASCA SARJANA</strong></label>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Program Studi</strong></td>
+                <td><strong>:</strong></td>
+                <td>
+                    <select id="programStudi" name="programStudi">
+                        <option value="Informatika">Informatika</option>
+                        <option value="Teknik Industri">Teknik Industri</option>
+                        <option value="Pen. Biologi">Pen. Biologi</option>
+                        <option value="Pend. Matematika">Pend. Matematika</option>
+                        <option value="Pend. Fisika">Pend. Fisika</option>
+                        <option value="Pend. Ekonomi">Pend. Ekonomi</option>
+                        <option value="Pend. Sejarah">Pend. Sejarah</option>
+                        <option value="Pend. Bhs Indonesia">Pend. Bhs Indonesia</option>
+                        <option value="Pend. Bhs Inggris">Pend. Bhs Inggris</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="display: flex;"><Strong>Kategori buku</Strong></td>
+                <td><strong></strong></td>
+                <td>
+                    <input type="checkbox" id="pendidikan" name="kategori-buku" value="Pendidikan">
+                    <label for="pendidikan">Pendidikan</label><br>
+
+                    <input type="checkbox" id="ilmu-sosial" name="kategori-buku" value="Ilmu Sosial">
+                    <label for="ilmu-sosial">Ilmu Sosial</label><br>
+
+                    <input type="checkbox" id="ilmu-alam" name="kategori-buku" value="Ilmu Alam">
+                    <label for="ilmu-alam">Ilmu Alam</label><br>
+
+                    <input type="checkbox" id="agama" name="kategori-buku" value="Agama">
+                    <label for="agama">Agama</label><br>
+
+                    <input type="checkbox" id="budaya" name="kategori-buku" value="Budaya">
+                    <label for="budaya">Budaya</label><br>
+
+                    <input type="checkbox" id="matematika-sains" name="kategori-buku" value="Matematika & Sains">
+                    <label for="matematika-sains">Matematika & Sains</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="button" value="DAFTAR" style="margin-left: 125px;"/>
+                    <input type="button" value="Muat Ulang"/>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
